@@ -31,10 +31,10 @@ In addition to the size inspector view, the constraints also appear in the Inter
 
 #Pin option
 
-Top : Determine the distance of the view according the top margin  
-Left : Determine the distance of the view according the left margin  
-Right : Determine the distance of the view according the right margin
-Bottom : Determine the distance of the view according the bottom margin
+Top : Determine the distance of the view according the top margin.
+Left : Determine the distance of the view according the left margin.
+Right : Determine the distance of the view according the right margin.
+Bottom : Determine the distance of the view according the bottom margin.
 
 Constain to margins : Layout margins represent padding around the interior of a UIView that the layout system can use when laying out subviews - to ensure that a gap is left between the edge of a view and a subview. In this respect it is very much like the padding property associated with blocks in CSS
 
@@ -49,10 +49,10 @@ You can create a constraint related to another item that is not the nearest neig
 
 #Align option
 
-Leading edges :  align all views selected according left edge
-Trailing edges : align all views selected according right edge
-Top Edges : align all views selected according top edge
-Bottom edges : align all views selected according bottom edge
+Leading edges :  align all views selected according left edge.
+Trailing edges : align all views selected according right edge.
+Top Edges : align all views selected according top edge.
+Bottom edges : align all views selected according bottom edge.
 
 Horizontal Centers, Vertical Centers, Baselines : You can center more than one views according the center in horizontal and vertical alignment.
 
