@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSUInteger, TestTypeConstraints) {
+    TopConstraints,
+    LeftConstraints,
+    RightConstraints,
+    BottomConstraints,
+    WidthAndHeightConstriants,
+    EqualWHConstraints,
+    AspectRatioConstraints,
+    LeadingEdgesConstraints,
+    TrailingEdgesConstraints,
+    TopEdgesConstraints,
+    BottomEdgesConstraints,
+    HVCentersConstrainsts,
+    HVinContainerConstraints,
+};
+
 @interface ViewController : UIViewController
 
 
