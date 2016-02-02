@@ -20,9 +20,7 @@ Once you setup a constraint in a view, the constraint line is displayed in eithe
 
 The blue constraint line indicates that your view layout is being setup correctly and there is no ambiguity.
 
-
 Sometimes after you create the constraint, the Interface Builder outline view shows a disclosure arrow. The red arrow also indicates that there are conflicts or ambiguities. Click the disclosure arrow, and you’ll see a list of the issues. The issues are displayed on a scene-by-scene basis. Typical issues include missing constraints, conflicting constraints and misplaced views.
-
 
 In the Size Inspector, you can view a list of all the constraints that have been added. These constraints appear in a section called “Constraints”.
 
@@ -31,40 +29,40 @@ In addition to the size inspector view, the constraints also appear in the Inter
 
 #Pin option
 
-Top : Determine the distance of the view according the top margin.
-Left : Determine the distance of the view according the left margin.
-Right : Determine the distance of the view according the right margin.
-Bottom : Determine the distance of the view according the bottom margin.
+- Top : Determine the distance of the view according the top margin.
+- Left : Determine the distance of the view according the left margin.
+- Right : Determine the distance of the view according the right margin.
+- Bottom : Determine the distance of the view according the bottom margin.
 
-Constain to margins : Layout margins represent padding around the interior of a UIView that the layout system can use when laying out subviews - to ensure that a gap is left between the edge of a view and a subview. In this respect it is very much like the padding property associated with blocks in CSS
+- Constain to margins : Layout margins represent padding around the interior of a UIView that the layout system can use when laying out subviews - to ensure that a gap is left between the edge of a view and a subview. In this respect it is very much like the padding property associated with blocks in CSS
 
-Width and Height : Set the width or height of the selected item (or items),
+- Width and Height : Set the width or height of the selected item (or items),
 
-Equal Widths and Equal Heights : Set equal widths or heights for multiple selected items, select the appropriate checkbox. To specify the width or height of one object as a proportion of another, set an equal width or height, and then edit the Multiplier field in the Attributes inspector.
+- Equal Widths and Equal Heights : Set equal widths or heights for multiple selected items, select the appropriate checkbox. To specify the width or height of one object as a proportion of another, set an equal width or height, and then edit the Multiplier field in the Attributes inspector.
 
-Aspect Ratio : Set an aspect ratio constraint for the selected item (or items), select the Aspect Ratio checkbox. If you select Aspect Ratio for a single item, the width of the item is used as the numerator for the ratio, and the height is used for the denominator. If you select Aspect Ratio for multiple items, Auto Layout chooses the width of one of the items for the numerator and the height of another item for the denominator. To change the initial aspect ratio, edit the Multiplier field of the Attributes inspector for the constraint. To change which item to use for the width or the height, use the First Item and Second Item pop-up menus in the Attributes inspector.
+- Aspect Ratio : Set an aspect ratio constraint for the selected item (or items), select the Aspect Ratio checkbox. If you select Aspect Ratio for a single item, the width of the item is used as the numerator for the ratio, and the height is used for the denominator. If you select Aspect Ratio for multiple items, Auto Layout chooses the width of one of the items for the numerator and the height of another item for the denominator. To change the initial aspect ratio, edit the Multiplier field of the Attributes inspector for the constraint. To change which item to use for the width or the height, use the First Item and Second Item pop-up menus in the Attributes inspector.
 
 You can create a constraint related to another item that is not the nearest neighbor
 
 
 #Align option
 
-Leading edges :  align all views selected according left edge.
-Trailing edges : align all views selected according right edge.
-Top Edges : align all views selected according top edge.
-Bottom edges : align all views selected according bottom edge.
+- Leading edges :  align all views selected according left edge.
+- Trailing edges : align all views selected according right edge.
+- Top Edges : align all views selected according top edge.
+- Bottom edges : align all views selected according bottom edge.
 
-Horizontal Centers, Vertical Centers, Baselines : You can center more than one views according the center in horizontal and vertical alignment.
+- Horizontal Centers, Vertical Centers, Baselines : You can center more than one views according the center in horizontal and vertical alignment.
 
-Horizontally in Container and Vertically in Container : You can center a single item in a container in the horizontal or vertical direction (or both).
+- Horizontally in Container and Vertically in Container : You can center a single item in a container in the horizontal or vertical direction (or both).
 
 #Resolve layout issues
 
-Update Frames : For resolving misplaced items, this operation updates the frames of the selected items to match the values of the constraints in the Attributes inspector.
-Update Constraints : For resolving misplaced items, this operation changes the values of the constraints in the Attributes inspector to match the frames displayed on the canvas.
-Add Missing Constraints : For resolving ambiguities resulting from an insufficient number of constraints, this operation adds the necessary constraints to the selected items.
-Reset to Suggested Constraints : This operation replaces the constraints for the selected items with new ones suggested by the Auto Layout system.
-Clear Constraints : This operation removes all layout constraints for the selected items. You then define all new constraints.
+- Update Frames : For resolving misplaced items, this operation updates the frames of the selected items to match the values of the constraints in the Attributes inspector.
+- Update Constraints : For resolving misplaced items, this operation changes the values of the constraints in the Attributes inspector to match the frames displayed on the canvas.
+- Add Missing Constraints : For resolving ambiguities resulting from an insufficient number of constraints, this operation adds the necessary constraints to the selected items.
+- Reset to Suggested Constraints : This operation replaces the constraints for the selected items with new ones suggested by the Auto Layout system.
+- Clear Constraints : This operation removes all layout constraints for the selected items. You then define all new constraints.
 
 #Constraint problems
 
