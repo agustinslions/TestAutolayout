@@ -8,11 +8,11 @@ Auto Layout is a fantastic tool. It does things that earlier technologies could 
 #Menu
 
 You will notice a menu at the bottom-right corner. The buttons in the menu are related to Auto Layout. You can use for alignment, sizing, spacing and resolving constraint issue.
-Align – Create alignment constraints, such as aligning the left edges of two views.
-Pin – Create spacing constraints, such as defining the width of a UI control.
-Issues – Resolve layout issues.
-Resizing – Specify how resizing affects constraints.
-Stack – views provide an easy way to leverage the power of Auto Layout without introducing the complexity of constraints. A single stack view defines a row or column of user interface elements. The stack view arranges these elements based on its properties.
+- Align : Create alignment constraints, such as aligning the left edges of two views.
+- Pin : Create spacing constraints, such as defining the width of a UI control.
+- Issues : Resolve layout issues.
+- Resizing : Specify how resizing affects constraints.
+- Stack : views provide an easy way to leverage the power of Auto Layout without introducing the complexity of constraints. A single stack view defines a row or column of user interface elements. The stack view arranges these elements based on its properties.
 
 #Visual constraints
 
