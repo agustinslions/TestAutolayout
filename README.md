@@ -14,8 +14,6 @@ Issues – Resolve layout issues.
 Resizing – Specify how resizing affects constraints.
 Stack – views provide an easy way to leverage the power of Auto Layout without introducing the complexity of constraints. A single stack view defines a row or column of user interface elements. The stack view arranges these elements based on its properties.
 
-
-
 #Visual constraints
 
 Once you setup a constraint in a view, the constraint line is displayed in either in orange or blue. The orange constraint lines indicates that there are insufficient constraints and you need to fix it.
@@ -52,7 +50,7 @@ You can create a constraint related to another item that is not the nearest neig
 #Align option
 
 Leading edges :  align all views selected according left edge
-Trailing edges : align all views selected according left edge
+Trailing edges : align all views selected according right edge
 Top Edges : align all views selected according top edge
 Bottom edges : align all views selected according bottom edge
 
@@ -60,7 +58,7 @@ Horizontal Centers, Vertical Centers, Baselines : You can center more than one v
 
 Horizontally in Container and Vertically in Container : You can center a single item in a container in the horizontal or vertical direction (or both).
 
-Resolve layout issues
+#Resolve layout issues
 
 Update Frames : For resolving misplaced items, this operation updates the frames of the selected items to match the values of the constraints in the Attributes inspector.
 Update Constraints : For resolving misplaced items, this operation changes the values of the constraints in the Attributes inspector to match the frames displayed on the canvas.
