@@ -30,7 +30,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 13;
+    return 15;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -91,6 +91,10 @@
         case 11: title = @"Horizontal Centers, Vertical Centers- Align option";
             break;
         case 12: title = @"Horizontally in Container and Vertically in Container - Align option";
+            break;
+        case 13: title = @"Animatinos";
+            break;
+        case 14: title = @"Align view on center of the view";
             break;
         default:
             break;
