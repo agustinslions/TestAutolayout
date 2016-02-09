@@ -136,7 +136,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ya-in-4fF">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ya-in-4fF" customClass="TestContentView">
                                 <rect key="frame" x="213" y="212" width="175" height="175"/>
                                 <color key="backgroundColor" red="0.64070209700000003" green="0.23296155430000001" blue="0.1804327714" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>

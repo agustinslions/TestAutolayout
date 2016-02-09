@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4124C6181C6A7515007BDAD4 /* testCenterViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4124C6171C6A7515007BDAD4 /* testCenterViewViewController.m */; };
+		4124C61B1C6A79A4007BDAD4 /* TestContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4124C61A1C6A79A4007BDAD4 /* TestContentView.m */; };
 		41A5B8BE1C60E0F800764C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A5B8BD1C60E0F800764C99 /* main.m */; };
 		41A5B8C11C60E0F800764C99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A5B8C01C60E0F800764C99 /* AppDelegate.m */; };
 		41A5B8C41C60E0F800764C99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A5B8C31C60E0F800764C99 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		4124C6161C6A7515007BDAD4 /* testCenterViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testCenterViewViewController.h; sourceTree = "<group>"; };
 		4124C6171C6A7515007BDAD4 /* testCenterViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCenterViewViewController.m; sourceTree = "<group>"; };
+		4124C6191C6A79A4007BDAD4 /* TestContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestContentView.h; sourceTree = "<group>"; };
+		4124C61A1C6A79A4007BDAD4 /* TestContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestContentView.m; sourceTree = "<group>"; };
 		41A5B8B91C60E0F800764C99 /* TestAutolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAutolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A5B8BD1C60E0F800764C99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41A5B8BF1C60E0F800764C99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				41A8D59C1C612B5C00DE0100 /* testAnimationsViewController.m */,
 				4124C6161C6A7515007BDAD4 /* testCenterViewViewController.h */,
 				4124C6171C6A7515007BDAD4 /* testCenterViewViewController.m */,
+				4124C6191C6A79A4007BDAD4 /* TestContentView.h */,
+				4124C61A1C6A79A4007BDAD4 /* TestContentView.m */,
 				41A5B8C51C60E0F800764C99 /* Main.storyboard */,
 				41A5B8C81C60E0F800764C99 /* Assets.xcassets */,
 				41A5B8CA1C60E0F800764C99 /* LaunchScreen.storyboard */,
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4124C61B1C6A79A4007BDAD4 /* TestContentView.m in Sources */,
 				41A5B8C41C60E0F800764C99 /* ViewController.m in Sources */,
 				41A5B8C11C60E0F800764C99 /* AppDelegate.m in Sources */,
 				41A5B8BE1C60E0F800764C99 /* main.m in Sources */,
